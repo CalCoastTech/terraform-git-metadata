@@ -1,6 +1,5 @@
 data "external" "git_metadata" {
-  working_dir = path.module
-  program     = ["bash", "./get-git-metadata.sh"]
+  program     = ["bash", "${path.module}/get-git-metadata.sh", path.root]
 }
 
 output "ref" {

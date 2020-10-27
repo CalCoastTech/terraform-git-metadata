@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+cd $1
 ref=$(git rev-parse --abbrev-ref HEAD)
 url=$(git config --get remote.origin.url)
 sha=$(git rev-parse HEAD)

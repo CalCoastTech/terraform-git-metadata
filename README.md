@@ -12,7 +12,9 @@ No requirements.
 
 ## Providers
 
-No provider.
+| Name | Version |
+|------|---------|
+| external | n/a |
 
 ## Inputs
 
@@ -20,6 +22,11 @@ No input.
 
 ## Outputs
 
-No output.
+| Name | Description |
+|------|-------------|
+| all | n/a |
+| ref | n/a |
+| sha | n/a |
+| url | n/a |
 
 <!--- END_TF_DOCS --->

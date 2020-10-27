@@ -24,9 +24,9 @@ No input.
 
 | Name | Description |
 |------|-------------|
-| all | n/a |
-| ref | n/a |
-| sha | n/a |
-| url | n/a |
+| all | Single map with all git metadata |
+| ref | Abbreviated reference for current HEAD. Typically returns the current branch name. |
+| sha | Commit SHA for current HEAD |
+| url | URL for remote repository named 'origin' |
 
 <!--- END_TF_DOCS --->

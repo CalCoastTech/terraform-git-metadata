@@ -1,5 +1,5 @@
 module "git_metadata" {
-  source = "git@github.com:bryankaraffa/terraform-git-metadata.git"
+  source = "git@github.com:calcoasttech/terraform-git-metadata.git"
 }
 
 resource "aws_s3_bucket" "bucket" {
